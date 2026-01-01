@@ -5,11 +5,18 @@
         "message": "Thanks for using the app! I hope you enjoy it 🥰\n🥰 شكراً على استخدام التطبيق! أتمنى أن ينال إعجابكم",
         "type": "info"
     },
-        {
+ {
         "id": "info1",
         "title": "test new notif",
         "message": "suiiii ? ",
         "type": "info"
+    },
+{
+        "id": "feedback_001",
+        "title": "We value your opinion",
+        "message": "Help us improve AudioSync by sharing your thoughts.",
+        "type": "feedback",
+        "action": "Rate App"
     }
 
         
