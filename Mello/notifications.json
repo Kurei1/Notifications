@@ -1,1 +1,18 @@
-
+[
+  {
+    "id": "welcome_mello_v1",
+    "title": "Welcome to Mello",
+    "message": "Your smart university meal booking companion is connected and ready.",
+    "type": "info",
+    "action": "",
+    "duration_seconds": 6
+  },
+  {
+    "id": "tip_smart_scheduler",
+    "title": "Smart Auto-Booking",
+    "message": "Enable auto-booking in Scheduler so Mello reserves your meals automatically.",
+    "type": "tip",
+    "action": "",
+    "duration_seconds": 5
+  }
+]
