@@ -14,5 +14,13 @@
     "type": "tip",
     "action": "",
     "duration_seconds": 5
+  },
+  {
+    "id": "test",
+    "title": "Testing a new notif",
+    "message": "idk man",
+    "type": "tip",
+    "action": "",
+    "duration_seconds": 5
   }
 ]
