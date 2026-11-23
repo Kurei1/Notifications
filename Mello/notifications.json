@@ -1,9 +1,18 @@
+// Available "type" values (triggers color & icon in Mello):
+// - "info"    : Blue   (Info icon)
+// - "tip"     : Amber  (Lightbulb icon)
+// - "update"  : Green  (SystemUpdate icon + Download Update button)
+// - "warning" : Orange (Warning icon)
+// - "error"   : Red    (Error icon, alias: "alert")
+// - "success" : Green  (CheckCircle icon)
+// Date format: "yy/MM/dd/HH/mm" (e.g. "26/11/23/20/30")
 [
   {
     "id": "welcome_mello_v1",
     "title": "Welcome to Mello",
     "message": "Your smart university meal booking companion is connected and ready.",
     "type": "info",
+    "date": "26/11/23/19/00",
     "action": "",
     "duration_seconds": 6
   },
@@ -12,14 +21,16 @@
     "title": "Smart Auto-Booking",
     "message": "Enable auto-booking in Scheduler so Mello reserves your meals automatically.",
     "type": "tip",
+    "date": "26/11/23/19/30",
     "action": "",
     "duration_seconds": 5
   },
   {
-    "id": "test",
+    "id": "test_notif_v1",
     "title": "Testing a new notif",
     "message": "idk man",
-    "type": "tip",
+    "type": "success",
+    "date": "26/11/23/20/25",
     "action": "",
     "duration_seconds": 5
   }
