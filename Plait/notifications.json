@@ -1,0 +1,34 @@
+// Available "type" values (triggers color & icon in PlaiT):
+// - "welcome" : Evergreen (always shown to new users, never expires)
+// - "tip"     : Evergreen (always shown to new users, never expires)
+// - "update"  : Evergreen (always shown to new users, never expires)
+// - "info"    : Expires after 24h unless "sticky": true
+// - "warning" : Expires after 24h unless "sticky": true
+// - "error"   : Expires after 24h unless "sticky": true
+// - "success" : Expires after 24h unless "sticky": true
+// Optional button fields:
+// - "action"  : Button label text (e.g. "Support the app", "Download")
+// - "url"     : Link opened when the button is tapped
+// Date format: "yy/MM/dd/HH/mm" (e.g. "26/11/24/21/25")
+[
+  {
+    "id": "welcome_plait_v1",
+    "title": "Welcome to PlaiT",
+    "message": "Your local-first YouTube & SoundCloud playlist organizer, offline downloader & audio player is ready.",
+    "type": "welcome",
+    "date": "26/11/24/21/00",
+    "action": "",
+    "url": "",
+    "duration_seconds": 6
+  },
+  {
+    "id": "tip_nitro_dl",
+    "title": "Nitro Chunked Downloads",
+    "message": "Downloads use 4 parallel chunk streams so you can save tracks offline at maximum speed.",
+    "type": "tip",
+    "date": "26/11/24/21/05",
+    "action": "",
+    "url": "",
+    "duration_seconds": 5
+  }
+]
