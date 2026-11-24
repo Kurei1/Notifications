@@ -1,11 +1,12 @@
 // Available "type" values (triggers color & icon in Mello):
-// - "info"    : Blue   (Info icon)
-// - "tip"     : Amber  (Lightbulb icon)
-// - "update"  : Green  (SystemUpdate icon + Download Update button)
-// - "warning" : Orange (Warning icon)
-// - "error"   : Red    (Error icon, alias: "alert")
-// - "success" : Green  (CheckCircle icon)
-// Date format: "yy/MM/dd/HH/mm" (e.g. "26/11/23/20/30")
+// - "welcome" : Blue   (Celebration icon)  [Evergreen: always shown to new users]
+// - "tip"     : Amber  (Lightbulb icon)    [Evergreen: always shown to new users]
+// - "update"  : Green  (SystemUpdate icon + Download Update button) [Evergreen]
+// - "info"    : Blue   (Info icon)         [Expires after 24h unless "sticky": true]
+// - "warning" : Orange (Warning icon)      [Expires after 24h unless "sticky": true]
+// - "error"   : Red    (Error icon, alias "alert") [Expires after 24h unless "sticky": true]
+// - "success" : Green  (CheckCircle icon)  [Expires after 24h unless "sticky": true]
+// Date format: "yy/MM/dd/HH/mm" (e.g. "26/11/24/09/40")
 [
   {
     "id": "welcome_mello_v1",
