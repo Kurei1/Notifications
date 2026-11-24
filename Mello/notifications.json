@@ -33,5 +33,14 @@
     "date": "26/11/23/20/25",
     "action": "",
     "duration_seconds": 5
+  },
+  {
+    "id": "test_notif_v2",
+    "title": "ANdroid top bar notif test",
+    "message": "did it appear , we have a great new for u",
+    "type": "success",
+    "date": "26/11/24/09/19",
+    "action": "",
+    "duration_seconds": 5
   }
 ]
