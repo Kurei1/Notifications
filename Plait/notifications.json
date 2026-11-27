@@ -6,29 +6,33 @@
 // - "warning" : Expires after 24h unless "sticky": true
 // - "error"   : Expires after 24h unless "sticky": true
 // - "success" : Expires after 24h unless "sticky": true
-// Optional button fields:
-// - "action"  : Button label text (e.g. "Support the app", "Download")
-// - "url"     : Link opened when the button is tapped
-// Date format: "yy/MM/dd/HH/mm" (e.g. "26/11/24/21/25")
+//
+// Multi-language support (en / fr / ar):
+// "title", "message", and "action_label" can be objects with { "en": "...", "fr": "...", "ar": "..." }
+// (or plain strings for single-language).
+//
+// Optional fields:
+// - "version"      : Target version for "update" notifications (e.g. "1.0.1")
+// - "action_label" : Button label text (supports { "en", "fr", "ar" })
+// - "url"          : Link opened or APK/release URL downloaded when the button is tapped
+// Date format: "yy/MM/dd/HH/mm" (e.g. "26/11/27/08/00")
 [
   {
     "id": "welcome_plait_v1",
-    "title": "Welcome to PlaiT",
-    "message": "Your local-first YouTube & SoundCloud playlist organizer, offline downloader & audio player is ready.",
+    "title": {
+      "en": "Welcome to PlaiT",
+      "fr": "Bienvenue sur PlaiT",
+      "ar": "مرحباً بك في PlaiT"
+    },
+    "message": {
+      "en": "Your local YouTube & SoundCloud playlist organizer, offline downloader & audio player is ready.",
+      "fr": "Votre organisateur local de playlists YouTube et SoundCloud, téléchargeur hors ligne et lecteur audio est prêt.",
+      "ar": "منظم ومشغل قوائم يوتيوب وساوند كلاود المحلي ومحمل المقاطع بدون إنترنت جاهز للاستخدام."
+    },
     "type": "welcome",
-    "date": "26/11/24/21/00",
-    "action": "",
+    "date": "26/11/27/08/00",
+    "action_label": "",
     "url": "",
     "duration_seconds": 6
-  },
-  {
-    "id": "tip_nitro_dl",
-    "title": "Nitro Chunked Downloads",
-    "message": "Downloads use 4 parallel chunk streams so you can save tracks offline at maximum speed.",
-    "type": "tip",
-    "date": "26/11/24/21/05",
-    "action": "",
-    "url": "",
-    "duration_seconds": 5
   }
 ]
